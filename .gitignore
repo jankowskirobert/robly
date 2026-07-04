@@ -1,0 +1,47 @@
+# ─── Python ──────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+*.egg
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.tox/
+.coverage
+htmlcov/
+.venv/
+venv/
+env/
+
+# ─── Editors / OS ────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ─── robly-specific junk ─────────────────────────────────────────────────
+# Local backups / dumps produced while working with a real iPod
+*.itunesdb.bak
+*.iTunesDB.bak
+backup_*/
+dumps/*.bin
+dumps/*.dat
+
+# Downloaded music (large, personal)
+downloaded/
+music_download/
+*.mp3.local
+
+# Frida / API monitor logs
+*.log
+frida_*.txt
+
+# Claude Code local state
+.claude/settings.local.json
+.claude/statsig/
